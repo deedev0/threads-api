@@ -8,6 +8,11 @@ const routes = (handler) => [
     method: 'GET',
     path: '/threads/{threadId}',
     handler: handler.getThreadHandler,
+  },  
+  {
+    method: 'GET',
+    path: '/threads/welcome',
+    handler: handler.getWelcomeThreadHandler,
   },
 ];
 
