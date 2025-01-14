@@ -127,7 +127,7 @@ describe('/threads endpoint', () => {
    describe('when GET /threads/welcome', () => { 
     it('should response 200 and get welcome message', async () => {
       // Arrange
-      // server arrange
+      // Server Arrange
       const server = await createServer(container);
 
       // Action
